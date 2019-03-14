@@ -1,0 +1,105 @@
+/****** Main Styling ******/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #222;
+	background-color: #ECF0F1;
+	text-align: center;
+}
+
+.container {
+	padding: 0;
+  padding-bottom:10px;
+	margin-top: 20px;
+  background-color:#0c0032;
+  color:#ededed;
+}
+
+
+
+ol {
+	list-style-position: inside;
+}
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: #2574A9;
+}
+
+input {
+  display: block;
+  position: relative;
+  margin: 10px auto;
+
+}
+input#button {
+  width: 40%;
+}
+.view {
+  position:relative;
+  margin-top: 40px;
+  padding: 20px;
+  width: 60%;
+  /*min-width: 400px;*/
+  background-color:#3500d4;
+  border-radius:7px;
+  margin:auto;
+}
+/****** Logo Div Styling ******/
+
+
+
+footer{
+  background-color:inherit;
+  height:70vh;
+}
+footer > p{
+  max-width:100%;
+  text-align:center;
+}
+a{
+  text-decoration:none;
+}
+a:visited{
+  color:blue;
+  text-decoration:none;
+}
+a:hover{
+  color:royalblue;
+}
+
+#image{
+  width:150px;
+  height:150px;
+  margin:auto;
+}
+#social{
+  display:flex;
+  justify-content:center;
+  margin-top:20px;
+}
+#social > div{
+  margin-left:5px;
+}
+
+.socImg{
+  width:40px;
+  height:40px;
+}
+
+
+@media(max-width:768px){
+  .view{
+    width:80%;
+  }
+  input#inputfield{
+    width:100%;
+  }
+  input#button{
+    width:70%;
+    margin-top:20px;
+  }
+}
