@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+      <title>File Metadata | Andrew Siachos</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+
+      <div class="container">
+        <h2>API Project: File Metadata Microservice</h2>
+        <h3>Instructions:</h3>
+        <p>You can select any file to upload and, once you click upload you will receive a json response with the file's name, type and size.</p>
+
+        
+        <p>
+          Please Upload a File ...
+        </p>
+        <div class="view">
+          <h4 id="output"></h4>
+          <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
+            <input id="inputfield" type="file" name="upfile">
+            <input id="button" type="submit" value="Upload">
+          </form>
+        </div>
+      </div>
+     
+     <!--SIGNATURE -->
+      <footer>
+       <p>
+          by <a href="https://codepen.io/AndrewAS" target="_blank">Andrew Siachos</a>
+       </p>
+       <div id="image">
+         <a href="https://github.com/andrewsiachos" target="_blank"><img src="https://avatars3.githubusercontent.com/u/33431923?s=460&v=4.jpg" alt="image" width="150" height="150"/></a>
+       </div>
+       
+       <div id="social">
+         
+         <div>
+           <a href="https://twitter.com/andrew_siachos" target="_blank" ><img src="http://wordsworth-editions.com/img/twitter.png" alt="twitter icon" class="socImg"/></a>
+         </div>
+         <div>
+           <a href="https://www.facebook.com/andrew.siaxos" target="_blank"><img src="http://wordsworth-editions.com/img/facebook.png" alt="facebook icon" class="socImg"/></a>
+         </div>
+           
+         
+       </div>
+     </footer>
+     <!--SIGNATURE ENDS-->
+   </body>
+
+
+</html>
